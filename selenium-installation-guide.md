@@ -1,5 +1,4 @@
 Python, Selenium Installation Guide Download
-Section 2, Lecture 9
 
 Installing Python and Selenium
 

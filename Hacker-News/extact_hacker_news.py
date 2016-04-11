@@ -2,7 +2,6 @@ from selenium import webdriver
 from hacker_news import HackerNews
 import csv
 
-
 def extract_title_email():
     data = []
     driver = webdriver.Firefox()

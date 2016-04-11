@@ -21,7 +21,7 @@ def download_videos():
             driver.execute_script("window.history.go(-1)")
             driver.execute_script("window.scrollTo(0, 465);")
         driver.execute_script("window.scrollTo(0, 4650);")
-        sleep(2)
+        sleep(1)
         driver.find_element_by_css_selector(GoDjango.next_button_click).click()
     driver.quit()
 

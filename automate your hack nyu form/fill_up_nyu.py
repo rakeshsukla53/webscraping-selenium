@@ -12,6 +12,7 @@ DesiredCapabilities.FIREFOX["elementScrollBehavior"] = 1
 
 
 def fill_up_hack_nyu(student):
+    """ automate your hack nyu form using selenium"""
     driver = webdriver.Firefox()
     wait = WebDriverWait(driver, 10)
     # load the page

@@ -7,6 +7,7 @@ from time import sleep
 
 
 def download_videos():
+    """ download all videos from www.godjango.com """
     driver = webdriver.Firefox()
     driver.get('https://godjango.com/browse/')
     WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.CSS_SELECTOR, GoDjango.first_video_title)))

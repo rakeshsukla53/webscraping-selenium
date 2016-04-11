@@ -4,6 +4,7 @@ import csv
 
 
 def extract_top_news():
+    """ scrape all top news from the hacker news website """
     data = []
     driver = webdriver.Firefox()
     driver.get('https://news.ycombinator.com/')

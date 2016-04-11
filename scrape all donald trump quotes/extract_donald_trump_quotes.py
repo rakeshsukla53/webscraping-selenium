@@ -3,6 +3,7 @@ from brain_quote_page import BrainQuotePage
 
 
 def extract_donald_trump_quotes():
+    """ scrape all donald trump quotes """
     browser = webdriver.Firefox()
     browser.get('http://www.brainyquote.com/quotes/authors/d/donald_trump.html')
     while True:
